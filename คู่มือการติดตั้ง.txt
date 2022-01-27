@@ -1,0 +1,13 @@
+คู่การติดตั้งและใช้งาน
+1.ติดตั้งสภาพแวดล้อมในไฟล์ composer.json
+    ใช้คำสั่ง composer install
+2.ติดตั้งสภาพแวดล้อมในไฟล์ package.json
+    ใช้คำสั่ง npm install
+3.copyไฟล์ .env.example
+4.วางไฟล์ .env.example ไว้นอกสุดของโปรเจคเปลี่ยนชื่อไฟล์เป็น .env
+5.เปิด Terminal แล้วพิมพ์
+    คำสั่ง php artisan key:generate
+6. เปลี่ยนชื่อ Databaes ในไฟล์ .env ให้ตรงกับชื่อ Datebaes ใน phpMyAdmin
+7. เปิด Terminal แล้วพิมพ์
+    คำสั่ง php artisan migrate
+8. รันโปรเจคใช้คำสั่ง php artisan serve
